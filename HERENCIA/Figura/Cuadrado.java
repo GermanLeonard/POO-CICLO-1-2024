@@ -5,9 +5,9 @@ public class Cuadrado extends Figura{
         this.lado = lado;
     }
 
-    @Override
+
     public void calcularArea() {
         double area = lado * lado;
-        System.out.println("El área del cuadrado es: "+ area );
+        System.out.println("El área del cuadradooo es: "+ area );
     }
 }
