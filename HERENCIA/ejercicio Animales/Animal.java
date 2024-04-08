@@ -35,4 +35,9 @@ public class Animal {
     public void dormir(){
         System.out.println("durmiendo...");
     }
+
+    public void mostrarInfo(){
+        System.out.println("nombre: "+nombre);
+        System.out.println("edad: "+edad);
+    }
 }

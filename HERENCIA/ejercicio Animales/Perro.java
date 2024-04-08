@@ -16,4 +16,15 @@ public class Perro extends Animal {
         System.out.println("El perro esta jugando.");
     }
 
+    public void dormir(){
+        super.dormir();
+        System.out.println("el perro esta dormido.");
+    }
+
+    public void mostrarInfo(){
+        System.out.println("info del perro.");
+        super.mostrarInfo();
+
+    }
+
 }
